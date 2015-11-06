@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hi, I'm Zhihao Lou. I'm a PhD student in computer science in the [University of Chicago](http://www.uchicago.edu). My main research project involves parallelizing simulated annealing algorithm so it can work on modern supercomputers like [Beagle2](http://beagle.ci.uchicago.edu). You can find my resume [here](http://people.cs.uchicago.edu/~zhlou).
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+This is my blog where I write about a variety of things I'm currently learning. Hope you'll find some bits or pieces that's useful.
