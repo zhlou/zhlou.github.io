@@ -127,7 +127,10 @@ blockquote {
  */
 pre,
 code {
+/*
     font-size: 15px;
+*/
+    font-size: 93.75%;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: #eef;
@@ -136,6 +139,7 @@ code {
 code {
     padding: 1px 5px;
 }
+
 
 pre {
     padding: 8px 12px;
