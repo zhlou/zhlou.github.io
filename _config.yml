@@ -11,4 +11,6 @@ twitter_username: zhlou
 github_username:  zhlou
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+kramdown:
+  input: GFM
