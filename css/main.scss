@@ -48,3 +48,21 @@ $on-laptop:        800px;
         "borland"
         //"syntax-highlighting"
 ;
+
+
+a.footnote:before {   
+    content: "[";
+   }
+   
+   a.footnote:after {
+       content: "]";
+   }
+   
+.footnotes {
+    padding-top: 1em;
+    font-size: $small-font-size;
+
+}
+.footnotes p {
+    margin-bottom: 0;
+}

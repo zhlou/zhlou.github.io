@@ -1,14 +1,15 @@
 # Site settings
-title: Zhihao Lou's note book
-email: lzh1984@gmail.com
+title: Zhihao Lou's Notebook
+email: zhlou@zhlou.org
 description: > # this means to ignore newlines until "baseurl:"
-  Welcome to Zhihao Lou's note book. Here you can find my notes about things
+  Welcome to Zhihao Lou's Notebook. Here you can find my notes about things
   I'm learning.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://zhlou.github.io" # the base hostname & protocol for your site
 permalink: /:year-:month-:day/:title/
 twitter_username: zhlou
 github_username:  zhlou
+linkedin_username: zhihao-lou
 
 # Build settings
 markdown: kramdown

@@ -2,6 +2,7 @@
 layout: post
 title: "Notes on Hash Table"
 categories: algorithm
+date: 2016-01-26
 ---
 This post is my study notes on the algorithms and implementations of hash tables.
 
@@ -42,8 +43,6 @@ Open addressing store all the entries in the bucket array itself. When collision
 * double hashing: next index is calculated by another hash function
 
 One chanlleage in open addressing is when deleting entries, setting the entry back to unoccupied state will break the hash table if there are more entries of the same hash. A common strategy is to set the entry to some dummy state that is different from empty.
-
-## Table Size and Dyanmaic Resizing
 
 ## Reading Materials
 
