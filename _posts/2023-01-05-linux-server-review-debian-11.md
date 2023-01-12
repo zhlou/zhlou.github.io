@@ -12,14 +12,17 @@ This will be the first out of hopefully a few posts to review distributions with
 
 ## Installation 
 The installation is done using `netinst.iso` image via TUI with only SSH server and standard system utilities installed.
+
 ![Debian Install Software Selection](/assets/debian_install_software_selection.png)
 
 ### Root Account
 During installation, the Debian installer will give you the option to set a password for `root` user or disable it entirely. 
+
 ![Debian Install Set Root Password](/assets/debian_install_user_passwords.png)
+
 Setting a non-empty password will enable the `root` user login via password. This is a more traditional setup that many people are familiar with. If one choose to enter an empty password in the process, the `root` user will be disabled. Instead, the regular user to be created in the next step will be part of `sudo` group and can carry out sysadmin work via `sudo` commands. Worth noting that, as a quirk from the Debian installation, if the `root` user is enabled, `sudo` the program will _not_ be installed by default, and as a result, the regular user created will _not_ be in `sudo` group.
 
-### Default Security 
+## Default Security 
 Once installed, Debian 11 has reasonably good out-of-box security. Nmap scan show that only TCP port 22 (SSH) is open. One thing to note is that all other ports are rejected with TCP reset. Depending the school of thought you subscribe to, this might be either the exact right thing to do, or reducing the security by not using drop / no-response, and thus allowing port scanning to move quickly. I was able to scan all 65,535 ports in about 11 seconds. 
 ```
 # Nmap 7.93 scan initiated Sat Dec 31 00:11:30 2022 as: nmap -p- -T4 -oN - 192.168.1.53
