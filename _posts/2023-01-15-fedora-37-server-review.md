@@ -92,7 +92,7 @@ That means SELinux does not allow nginx to connect to upstream server by default
 
  There are lots of online discussion and debate already on whether to turn off SELinux. It is beyond the scope of this review to have deeper discussion about this topic.
 
- ### Database with PostgreSQL
+### Database with PostgreSQL
 Fedora 37 comes with PostgreSQL version 14.3, which is one major version behind as of this writing. The installation includes a few Fedora customized tools such as `postgresql-setup` and `postgresql-new-systemd-unit`. Once it is installed, it will put `postgresql.service` and `postgresql@.service` under `/usr/lib/systemd/system`, but no actual database will be created.
 
 To create the default database with data directory at `/var/lib/pgsql/data`, simply run the included script and then enable the `postgresql` service:
